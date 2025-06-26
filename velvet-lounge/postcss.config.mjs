@@ -1,5 +1,6 @@
-const config = {
-  plugins: ["@tailwindcss/postcss"],
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+}
 
-export default config;
+export default nextConfig
